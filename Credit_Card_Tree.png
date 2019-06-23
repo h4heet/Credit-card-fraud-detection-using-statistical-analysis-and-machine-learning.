@@ -1,0 +1,25 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<V10 &le; -1.879<br/>gini = 0.5<br/>samples = 454902<br/>value = [227451, 227451]<br/>class = Positive Class>, fillcolor="#e5813900"] ;
+1 [label=<V17 &le; -3.37<br/>gini = 0.034<br/>samples = 191121<br/>value = [3299, 187822]<br/>class = Negative Class>, fillcolor="#399de5fb"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<V6 &le; -2.403<br/>gini = 0.001<br/>samples = 145630<br/>value = [54, 145576]<br/>class = Negative Class>, fillcolor="#399de5ff"] ;
+1 -> 2 ;
+3 [label=<gini = 0.001<br/>samples = 45491<br/>value = [31, 45460]<br/>class = Negative Class>, fillcolor="#399de5ff"] ;
+2 -> 3 ;
+4 [label=<gini = 0.0<br/>samples = 100139<br/>value = [23, 100116]<br/>class = Negative Class>, fillcolor="#399de5ff"] ;
+2 -> 4 ;
+5 [label=<gini = 0.132<br/>samples = 45491<br/>value = [3245, 42246]<br/>class = Negative Class>, fillcolor="#399de5eb"] ;
+1 -> 5 ;
+6 [label=<V4 &le; 1.45<br/>gini = 0.255<br/>samples = 263781<br/>value = [224152, 39629]<br/>class = Positive Class>, fillcolor="#e58139d2"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+7 [label=<V4 &le; 0.019<br/>gini = 0.146<br/>samples = 218289<br/>value = [200946, 17343]<br/>class = Positive Class>, fillcolor="#e58139e9"] ;
+6 -> 7 ;
+8 [label=<gini = 0.043<br/>samples = 116582<br/>value = [114027, 2555]<br/>class = Positive Class>, fillcolor="#e58139f9"] ;
+7 -> 8 ;
+9 [label=<gini = 0.249<br/>samples = 101707<br/>value = [86919, 14788]<br/>class = Positive Class>, fillcolor="#e58139d4"] ;
+7 -> 9 ;
+10 [label=<gini = 0.5<br/>samples = 45492<br/>value = [23206, 22286]<br/>class = Positive Class>, fillcolor="#e581390a"] ;
+6 -> 10 ;
+}
