@@ -1,4 +1,4 @@
-# Credit card fraud detection using statistical analysis and machine learning.
+# Credit card fraud detection using statistical analysis and machine learning. (TODO: Implement this using Autoencoder Neural Network)
 
 Hi guys! In this blog post today, I will talk about detecting fraudulent transactions made with credit cards! In order to solve this problem of detecting whether or not a given transaction is fraud, we will use various supervised as well as unsupervised Machine Learning algorithms. We will see how accurate each of these models are in determining whether a given transaction is fraudulent or not.
 
